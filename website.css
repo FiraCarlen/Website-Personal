@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.navbar {
+    padding: 1.4rem 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:darkgreen;
+}
+.navbar .navbar-logo h1{
+    font-size: 35px;
+    color: rgb(0, 255, 85);
+}
+.navbar .navbar-logo .tec {
+    color:white;
+}
+.navbar ul {
+    list-style: none;
+    gap: 25px;
+    display: flex;
+}
+.navbar ul li {
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.navbar ul li a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 12px;
+    left: 0;
+    bottom: 5px;
+    background-color: orange;
+}
+.navbar ul li a:hover {
+    color:rgb(0, 255, 85);
+}
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('gren.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .isi {
+    padding: 1.4rem 7%;
+    max-width: 50rem;
+}
+.isi a {
+    text-decoration: none;
+}
+.isi h1 {
+    margin-top: 1rem;
+    font-size: 45px;
+    color:whitesmoke;
+}
+.isi p{
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 100;
+}
+.isi .cta{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 0.2rem;
+}
